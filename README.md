@@ -2,8 +2,9 @@
 
 # 1. Windows PowerShell Commands
 
-**List all firewall rules**
-Get-NetFirewallRule | Format-Table -AutoSize
+#List all firewall rules
+
+dGet-NetFirewallRule | Format-Table -AutoSize
 
 **Show active rules with ports/protocols**
 Get-NetFirewallRule -Enabled True | Get-NetFirewallPortFilter | Format-Table -AutoSize
