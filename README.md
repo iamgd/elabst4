@@ -1,6 +1,3 @@
-# elabst4
-Setup and Use a Firewall on Windows/Linux
-
 # Firewall Configuration using Windows PowerShell and Linux iptables
 
 # 1. Windows PowerShell Commands
